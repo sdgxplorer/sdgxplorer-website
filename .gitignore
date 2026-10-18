@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.zip
+.openai/*.local.*
+*.apk
+.vercel/
+.env.local
+.env.*.local
