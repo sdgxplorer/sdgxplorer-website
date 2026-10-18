@@ -2,6 +2,14 @@
 
 A responsive React website built with Vite and Lucide icons. Includes a game overview, illustrated hero, experience highlights, switchable Android requirements, an APK release section, and installation FAQs.
 
+Public website: https://sdgxplorer.vercel.app/
+
+Source repository: https://github.com/sdgxplorer/sdgxplorer-website
+
+APK release: https://github.com/sdgxplorer/sdgxplorer-website/releases/tag/v0.1.8
+
+The initial production deployment was uploaded directly to the SDGXplorer Vercel Hobby account. GitHub automatic deployments are not connected. To update it, run `npm ci` and `npm run build`, then upload `dist` through Vercel. `.env.production` contains the public APK URL used for production builds. A Vercel environment variable can override it when Git integration is connected later.
+
 ## Local development
 
 ```sh
